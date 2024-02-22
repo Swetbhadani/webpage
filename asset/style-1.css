@@ -1,0 +1,871 @@
+.blog-posts:not(.blog-posts-no-margins) article {
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+    margin-bottom: 50px;
+    padding-bottom: 20px
+}
+
+.blog-posts:not(.blog-posts-no-margins) .pagination {
+    margin: -10px 0 20px
+}
+
+.blog-posts.blog-posts-no-margins .pagination {
+    margin-top: 28.8px;
+    margin-top: 1.8rem
+}
+
+article.post h2 a {
+    text-decoration: none
+}
+
+article.post .post-meta {
+    font-size: .9em;
+    margin-bottom: 7px
+}
+
+article.post .post-meta>span {
+    display: inline-block;
+    padding-right: 8px
+}
+
+article.post .post-meta i {
+    margin-right: 3px
+}
+
+article.post .post-date {
+    float: left;
+    margin-right: 10px;
+    text-align: center
+}
+
+article.post .post-date .month {
+    display: block;
+    background: var(--grey-500);
+    border-radius: 0 0 2px 2px;
+    color: var(--light);
+    font-size: .8em;
+    line-height: 1.8;
+    padding: 1px 10px;
+    text-transform: uppercase
+}
+
+article.post .post-date .day {
+    background: var(--grey-100);
+    border-radius: 2px 2px 0 0;
+    color: var(--grey-500);
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px
+}
+
+article.post .post-image .owl-carousel {
+    width: 100.1%
+}
+
+article .post-video {
+    transition: all .2s ease-in-out;
+    padding: 0;
+    background-color: var(--light);
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: var(--border-radius2x);
+    display: block;
+    height: auto;
+    position: relative;
+    margin: 0 0 30px;
+    padding-bottom: 61%
+}
+
+article .post-video iframe {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto
+}
+
+article .post-audio {
+    transition: all .2s ease-in-out;
+    padding: 0;
+    background-color: var(--light);
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: var(--border-radius2x);
+    display: block;
+    height: auto;
+    position: relative;
+    margin: 0 0 30px;
+    padding-bottom: 35%;
+    min-height: 160px
+}
+
+article .post-audio iframe {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto
+}
+
+article.post-medium .post-image .owl-carousel {
+    width: 100.2%
+}
+
+article.post-large {
+    margin-left: 60px
+}
+
+article.post-large h2 {
+    margin-bottom: 5px
+}
+
+article.post-large .post-image,
+article.post-large .post-date {
+    margin-left: -60px
+}
+
+article.post-large .post-image {
+    margin-bottom: 25px
+}
+
+article.post-large .post-image.single {
+    margin-bottom: 30px
+}
+
+article.post-large .post-video {
+    margin-left: -60px
+}
+
+article.post-large .post-audio {
+    margin-left: -60px
+}
+
+.single-post article {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+article.blog-single-post .post-meta {
+    margin-bottom: 20px
+}
+
+.post-block h3 {
+    font-size: 1.8em;
+    font-weight: 200;
+    margin: 0 0 20px;
+    text-transform: none
+}
+
+.post-block h3 i {
+    margin-right: 7px
+}
+
+.post-author img {
+    max-height: 80px;
+    max-width: 80px
+}
+
+.post-author p {
+    font-size: .9em;
+    line-height: 22px;
+    margin: 0;
+    padding: 0
+}
+
+.post-author p .name {
+    font-size: 1.1em
+}
+
+.post-author .img-thumbnail {
+    display: inline-block;
+    margin-right: 20px
+}
+
+ul.comments {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.comments li {
+    clear: both;
+    padding: 10px 0 0 70px
+}
+
+ul.comments li img.avatar {
+    height: 48px;
+    width: 48px
+}
+
+ul.comments li ul.reply {
+    margin: 0
+}
+
+ul.comments li a {
+    text-decoration: none
+}
+
+ul.comments li .img-thumbnail {
+    margin-left: -70px;
+    position: absolute
+}
+
+ul.comments li .comment {
+    margin-bottom: 10px
+}
+
+ul.comments .comment-arrow {
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid var(--grey-100);
+    border-top: 12px solid transparent;
+    height: 0;
+    left: -12px;
+    position: absolute;
+    top: 12px;
+    width: 0
+}
+
+ul.comments .comment-block {
+    background: var(--grey-100);
+    border-radius: 5px;
+    padding: 20px 20px 30px;
+    position: relative
+}
+
+ul.comments .comment-block p {
+    font-size: .9em;
+    line-height: 21px;
+    margin: 0;
+    padding: 0
+}
+
+ul.comments .comment-block .comment-by {
+    display: block;
+    font-size: 1em;
+    line-height: 21px;
+    margin: 0;
+    padding: 0 0 5px
+}
+
+ul.comments .comment-block .date {
+    color: var(--grey-900);
+    font-size: .9em
+}
+
+.post-leave-comment h3 {
+    margin: 0 0 40px
+}
+
+.recent-posts h4 {
+    margin-bottom: 7px
+}
+
+.recent-posts article.recent-post h4 {
+    margin: 0 0 3px
+}
+
+.recent-posts article.recent-post h4 a {
+    display: block
+}
+
+.recent-posts .date {
+    margin-right: 10px;
+    text-align: center
+}
+
+.recent-posts .date .month {
+    background: var(--grey-500);
+    color: var(--light);
+    font-size: .9em;
+    padding: 3px 10px;
+    position: relative;
+    top: -2px
+}
+
+.recent-posts .date .day {
+    background: var(--grey-100);
+    color: var(--grey-500);
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: 700;
+    padding: 8px
+}
+
+section.section .recent-posts .date .day {
+    background: var(--light)
+}
+
+ul.simple-post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.simple-post-list li {
+    border-bottom: 1px dotted #e2e2e2;
+    padding: 15px 0
+}
+
+ul.simple-post-list li::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+ul.simple-post-list li:last-child {
+    border-bottom: 0
+}
+
+ul.simple-post-list .post-image {
+    float: left;
+    margin-right: 12px
+}
+
+ul.simple-post-list .post-meta {
+    color: var(--grey-900);
+    font-size: .8em
+}
+
+ul.simple-post-list .post-info {
+    line-height: 20px
+}
+
+@media(max-width:575px) {
+    ul.comments li {
+        border-left: 8px solid rgba(0, 0, 0, .06);
+        clear: both;
+        padding: 0 0 0 10px
+    }
+
+    ul.comments li .img-thumbnail {
+        display: none
+    }
+
+    ul.comments .comment-arrow {
+        display: none
+    }
+}
+
+.recent-posts .date .month,
+article.post .post-date .month {
+    background-color: var(--primary)
+}
+
+.recent-posts .date .day,
+article.post .post-date .day {
+    color: var(--primary)
+}
+
+.blog-posts:not(.blog-posts-no-margins) article {
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+    margin-bottom: 50px;
+    padding-bottom: 20px
+}
+
+.blog-posts:not(.blog-posts-no-margins) .pagination {
+    margin: -10px 0 20px
+}
+
+.blog-posts.blog-posts-no-margins .pagination {
+    margin-top: 28.8px;
+    margin-top: 1.8rem
+}
+
+article.post h2 a {
+    text-decoration: none
+}
+
+article.post .post-meta {
+    font-size: .9em;
+    margin-bottom: 7px
+}
+
+article.post .post-meta>span {
+    display: inline-block;
+    padding-right: 8px
+}
+
+article.post .post-meta i {
+    margin-right: 3px
+}
+
+article.post .post-date {
+    float: left;
+    margin-right: 10px;
+    text-align: center
+}
+
+article.post .post-date .month {
+    display: block;
+    background: var(--grey-500);
+    border-radius: 0 0 2px 2px;
+    color: var(--light);
+    font-size: .8em;
+    line-height: 1.8;
+    padding: 1px 10px;
+    text-transform: uppercase
+}
+
+article.post .post-date .day {
+    background: var(--grey-100);
+    border-radius: 2px 2px 0 0;
+    color: var(--grey-500);
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px
+}
+
+article.post .post-image .owl-carousel {
+    width: 100.1%
+}
+
+article .post-video {
+    transition: all .2s ease-in-out;
+    padding: 0;
+    background-color: var(--light);
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: var(--border-radius2x);
+    display: block;
+    height: auto;
+    position: relative;
+    margin: 0 0 30px;
+    padding-bottom: 61%
+}
+
+article .post-video iframe {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto
+}
+
+article .post-audio {
+    transition: all .2s ease-in-out;
+    padding: 0;
+    background-color: var(--light);
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: var(--border-radius2x);
+    display: block;
+    height: auto;
+    position: relative;
+    margin: 0 0 30px;
+    padding-bottom: 35%;
+    min-height: 160px
+}
+
+article .post-audio iframe {
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto
+}
+
+article.post-medium .post-image .owl-carousel {
+    width: 100.2%
+}
+
+article.post-large {
+    margin-left: 60px
+}
+
+article.post-large h2 {
+    margin-bottom: 5px
+}
+
+article.post-large .post-image,
+article.post-large .post-date {
+    margin-left: -60px
+}
+
+article.post-large .post-image {
+    margin-bottom: 25px
+}
+
+article.post-large .post-image.single {
+    margin-bottom: 30px
+}
+
+article.post-large .post-video {
+    margin-left: -60px
+}
+
+article.post-large .post-audio {
+    margin-left: -60px
+}
+
+.single-post article {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+article.blog-single-post .post-meta {
+    margin-bottom: 20px
+}
+
+.post-block h3 {
+    font-size: 1.8em;
+    font-weight: 200;
+    margin: 0 0 20px;
+    text-transform: none
+}
+
+.post-block h3 i {
+    margin-right: 7px
+}
+
+.post-author img {
+    max-height: 80px;
+    max-width: 80px
+}
+
+.post-author p {
+    font-size: .9em;
+    line-height: 22px;
+    margin: 0;
+    padding: 0
+}
+
+.post-author p .name {
+    font-size: 1.1em
+}
+
+.post-author .img-thumbnail {
+    display: inline-block;
+    margin-right: 20px
+}
+
+ul.comments {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.comments li {
+    clear: both;
+    padding: 10px 0 0 70px
+}
+
+ul.comments li img.avatar {
+    height: 48px;
+    width: 48px
+}
+
+ul.comments li ul.reply {
+    margin: 0
+}
+
+ul.comments li a {
+    text-decoration: none
+}
+
+ul.comments li .img-thumbnail {
+    margin-left: -70px;
+    position: absolute
+}
+
+ul.comments li .comment {
+    margin-bottom: 10px
+}
+
+ul.comments .comment-arrow {
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid var(--grey-100);
+    border-top: 12px solid transparent;
+    height: 0;
+    left: -12px;
+    position: absolute;
+    top: 12px;
+    width: 0
+}
+
+ul.comments .comment-block {
+    background: var(--grey-100);
+    border-radius: 5px;
+    padding: 20px 20px 30px;
+    position: relative
+}
+
+ul.comments .comment-block p {
+    font-size: .9em;
+    line-height: 21px;
+    margin: 0;
+    padding: 0
+}
+
+ul.comments .comment-block .comment-by {
+    display: block;
+    font-size: 1em;
+    line-height: 21px;
+    margin: 0;
+    padding: 0 0 5px
+}
+
+ul.comments .comment-block .date {
+    color: var(--grey-900);
+    font-size: .9em
+}
+
+.post-leave-comment h3 {
+    margin: 0 0 40px
+}
+
+.recent-posts h4 {
+    margin-bottom: 7px
+}
+
+.recent-posts article.recent-post h4 {
+    margin: 0 0 3px
+}
+
+.recent-posts article.recent-post h4 a {
+    display: block
+}
+
+.recent-posts .date {
+    margin-right: 10px;
+    text-align: center
+}
+
+.recent-posts .date .month {
+    background: var(--grey-500);
+    color: var(--light);
+    font-size: .9em;
+    padding: 3px 10px;
+    position: relative;
+    top: -2px
+}
+
+.recent-posts .date .day {
+    background: var(--grey-100);
+    color: var(--grey-500);
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: 700;
+    padding: 8px
+}
+
+section.section .recent-posts .date .day {
+    background: var(--light)
+}
+
+ul.simple-post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.simple-post-list li {
+    border-bottom: 1px dotted #e2e2e2;
+    padding: 15px 0
+}
+
+ul.simple-post-list li::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+ul.simple-post-list li:last-child {
+    border-bottom: 0
+}
+
+ul.simple-post-list .post-image {
+    float: left;
+    margin-right: 12px
+}
+
+ul.simple-post-list .post-meta {
+    color: var(--grey-900);
+    font-size: .8em
+}
+
+ul.simple-post-list .post-info {
+    line-height: 20px
+}
+
+@media(max-width:575px) {
+    ul.comments li {
+        border-left: 8px solid rgba(0, 0, 0, .06);
+        clear: both;
+        padding: 0 0 0 10px
+    }
+
+    ul.comments li .img-thumbnail {
+        display: none
+    }
+
+    ul.comments .comment-arrow {
+        display: none
+    }
+}
+
+.recent-posts .date .month,
+article.post .post-date .month {
+    background-color: var(--primary)
+}
+
+.recent-posts .date .day,
+article.post .post-date .day {
+    color: var(--primary)
+}
+
+:root {
+    --border-radius: 0;
+    --border-radius2x: 0;
+    --default: #777
+}
+
+:root {
+    --primary: #ff3f00;
+    --primary-100: #e63900;
+    --primary-200: #d93600;
+    --primary-300: #cc3200;
+    --primary--100: #ff521a;
+    --primary--200: #ff5c26;
+    --primary--300: #ff6533;
+    --primary-rgba-0: rgba(255, 63, 0, 0);
+    --primary-rgba-10: rgba(255, 63, 0, 0.1);
+    --primary-rgba-20: rgba(255, 63, 0, 0.2);
+    --primary-rgba-30: rgba(255, 63, 0, 0.3);
+    --primary-rgba-40: rgba(255, 63, 0, 0.4);
+    --primary-rgba-50: rgba(255, 63, 0, 0.5);
+    --primary-rgba-60: rgba(255, 63, 0, 0.6);
+    --primary-rgba-70: rgba(255, 63, 0, 0.7);
+    --primary-rgba-80: rgba(255, 63, 0, 0.8);
+    --primary-rgba-90: rgba(255, 63, 0, 0.9);
+    --secondary: #220c3c;
+    --secondary-100: #160827;
+    --secondary-200: #10061c;
+    --secondary-300: #0a0411;
+    --secondary--100: #2e1051;
+    --secondary--200: #34125c;
+    --secondary--300: #3a1566;
+    --secondary-rgba-0: rgba(34, 12, 60, 0);
+    --secondary-rgba-10: rgba(34, 12, 60, 0.1);
+    --secondary-rgba-20: rgba(34, 12, 60, 0.2);
+    --secondary-rgba-30: rgba(34, 12, 60, 0.3);
+    --secondary-rgba-40: rgba(34, 12, 60, 0.4);
+    --secondary-rgba-50: rgba(34, 12, 60, 0.5);
+    --secondary-rgba-60: rgba(34, 12, 60, 0.6);
+    --secondary-rgba-70: rgba(34, 12, 60, 0.7);
+    --secondary-rgba-80: rgba(34, 12, 60, 0.8);
+    --secondary-rgba-90: rgba(34, 12, 60, 0.9);
+    --tertiary: #f4f4f4;
+    --tertiary-100: #e7e7e7;
+    --tertiary-200: #e1e1e1;
+    --tertiary-300: #dbdbdb;
+    --tertiary--100: #ffffff;
+    --tertiary--200: #ffffff;
+    --tertiary--300: #ffffff;
+    --tertiary-rgba-0: rgba(244, 244, 244, 0);
+    --tertiary-rgba-10: rgba(244, 244, 244, 0.1);
+    --tertiary-rgba-20: rgba(244, 244, 244, 0.2);
+    --tertiary-rgba-30: rgba(244, 244, 244, 0.3);
+    --tertiary-rgba-40: rgba(244, 244, 244, 0.4);
+    --tertiary-rgba-50: rgba(244, 244, 244, 0.5);
+    --tertiary-rgba-60: rgba(244, 244, 244, 0.6);
+    --tertiary-rgba-70: rgba(244, 244, 244, 0.7);
+    --tertiary-rgba-80: rgba(244, 244, 244, 0.8);
+    --tertiary-rgba-90: rgba(244, 244, 244, 0.9);
+    --quaternary: #e7e7e7;
+    --quaternary-100: #dadada;
+    --quaternary-200: #d4d4d4;
+    --quaternary-300: #cecece;
+    --quaternary--100: #f4f4f4;
+    --quaternary--200: #fafafa;
+    --quaternary--300: #ffffff;
+    --quaternary-rgba-0: rgba(231, 231, 231, 0);
+    --quaternary-rgba-10: rgba(231, 231, 231, 0.1);
+    --quaternary-rgba-20: rgba(231, 231, 231, 0.2);
+    --quaternary-rgba-30: rgba(231, 231, 231, 0.3);
+    --quaternary-rgba-40: rgba(231, 231, 231, 0.4);
+    --quaternary-rgba-50: rgba(231, 231, 231, 0.5);
+    --quaternary-rgba-60: rgba(231, 231, 231, 0.6);
+    --quaternary-rgba-70: rgba(231, 231, 231, 0.7);
+    --quaternary-rgba-80: rgba(231, 231, 231, 0.8);
+    --quaternary-rgba-90: rgba(231, 231, 231, 0.9);
+    --dark: #212529;
+    --dark-100: #16181b;
+    --dark-200: #101214;
+    --dark-300: #0a0c0d;
+    --dark--100: #2c3237;
+    --dark--200: #32383e;
+    --dark--300: #383f45;
+    --dark-rgba-0: rgba(33, 37, 41, 0);
+    --dark-rgba-10: rgba(33, 37, 41, 0.1);
+    --dark-rgba-20: rgba(33, 37, 41, 0.2);
+    --dark-rgba-30: rgba(33, 37, 41, 0.3);
+    --dark-rgba-40: rgba(33, 37, 41, 0.4);
+    --dark-rgba-50: rgba(33, 37, 41, 0.5);
+    --dark-rgba-60: rgba(33, 37, 41, 0.6);
+    --dark-rgba-70: rgba(33, 37, 41, 0.7);
+    --dark-rgba-80: rgba(33, 37, 41, 0.8);
+    --dark-rgba-90: rgba(33, 37, 41, 0.9);
+    --light: #FFF;
+    --light-100: #f2f2f2;
+    --light-200: #ececec;
+    --light-300: #e6e6e6;
+    --light--100: #ffffff;
+    --light--200: #ffffff;
+    --light--300: #ffffff;
+    --light-rgba-0: rgba(255, 255, 255, 0);
+    --light-rgba-10: rgba(255, 255, 255, 0.1);
+    --light-rgba-20: rgba(255, 255, 255, 0.2);
+    --light-rgba-30: rgba(255, 255, 255, 0.3);
+    --light-rgba-40: rgba(255, 255, 255, 0.4);
+    --light-rgba-50: rgba(255, 255, 255, 0.5);
+    --light-rgba-60: rgba(255, 255, 255, 0.6);
+    --light-rgba-70: rgba(255, 255, 255, 0.7);
+    --light-rgba-80: rgba(255, 255, 255, 0.8);
+    --light-rgba-90: rgba(255, 255, 255, 0.9)
+}
+
+:root {
+    --primary-inverse: #FFF;
+    --secondary-inverse: #FFF;
+    --tertiary-inverse: #777;
+    --quaternary-inverse: #777;
+    --dark-inverse: #FFF;
+    --light-inverse: #777
+}
+
+:root {
+    --grey: #969696;
+    --grey-100: #f4f4f4;
+    --grey-200: #eaeaea;
+    --grey-300: #e5e5e5;
+    --grey-400: #e0e0e0;
+    --grey-500: #dbdbdb;
+    --grey-600: #cecece;
+    --grey-700: #c1c1c1;
+    --grey-800: #a8a8a8;
+    --grey-900: #8e8e8e;
+    --grey-1000: #757575
+}
