@@ -1,0 +1,130 @@
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.border-r {
+    border-radius: 30px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-r {
+    position: relative;
+}
+
+.p-a {
+    position: absolute;
+}
+
+@media only screen and (max-width:1150px) {
+    .asset-2 img {
+        margin-left: -50px;
+        left: 0;
+    }
+
+    marquee {
+        max-width: 461px !important;
+    }
+
+    .icon-box {
+        padding: 65px 61px 55px 61px !important;
+    }
+
+    .asset-7 {
+        padding: 10px 0 25px 0 !important;
+
+    }
+
+    .client-items {
+        padding: 0 30px 5px 30px !important;
+    }
+
+    .work-box {
+        padding: 0 200px 0 44px !important;
+    }
+}
+
+@media only screen and (max-width:912px) {
+    .row-1 {
+        display: inline !important;
+    }
+    .left-side{
+        margin-left: 20px;
+    }
+    .asset-2{
+        padding: 0 0 10px 25px; 
+
+    }
+    marquee {
+        margin-top: 30px;
+        min-width: 95% !important;
+    }
+    .zoom {
+        min-width: 45%;
+    }
+    .zoom img {
+        margin-left: 23%;
+    }
+    .icon11 {
+        margin-left: 287px !important;
+    }
+    .row-2{
+        flex-wrap: wrap;
+    }
+    .blog {
+        margin-left: 20px;
+       min-width: 46%;
+    }
+    .services{
+        min-width:97%;
+        margin-left: 20px;
+    }
+    .profiles{
+        min-width: 46%;
+    }
+    .asset-7{
+        padding: 10px 17px 25px 85px !important;
+    }
+    .ball{
+        margin: 21px 21px 21px 105px !important;
+    }
+    div#by1 {
+        order: 1 !important;
+    }
+    div#by2 {
+        order: 3 !important;
+    }
+    div#by3 {
+        order: 2 !important;
+    }
+    .row-3{
+        display: block;
+    }
+    .icon-box{
+        padding: 65px 61px 55px 202px !important;
+    }
+    .client-box{
+        margin-left: 20px;
+        min-width: 90%;
+    }
+    .client-items{
+        padding: 0 107px 5px 76px !important;
+    }
+    .work-box{
+        margin-top: -16px;
+        margin-left: 20px;
+        min-width: 70%;
+        min-height: 220px;
+    }
+    .work-box h1{
+        padding-top: 80px !important;
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .row-2{
+        flex-wrap:nowrap;
+    }
+}
